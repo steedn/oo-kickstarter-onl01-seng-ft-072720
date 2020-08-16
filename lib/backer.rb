@@ -12,7 +12,6 @@ class Backer
   end
   def add_backer(name)
     back_array
-
     binding.pry
   end
 end
