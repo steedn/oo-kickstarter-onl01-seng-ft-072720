@@ -8,7 +8,7 @@ def initialize(title)
   end
   def add_backer(name)
     @backers << name
-    name.backed_project << self
+    name.backed_projects << self
     # binding.pry
   end
 end
