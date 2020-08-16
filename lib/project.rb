@@ -7,7 +7,7 @@ def initialize(title)
   @backers = []
   end
   def add_backer(name)
-    @backers << name
+    self.backers << name
     # binding.pry
   end
 end
